@@ -4,7 +4,7 @@ import "leaflet/dist/leaflet.css";
 import data from "../assets/data";
 import Markers from "./VenueMarkers";
 
-class MapView extends Component {
+class Mapa extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -20,7 +20,7 @@ class MapView extends Component {
       <MapContainer
         center={center}
         zoom={zoomLvl}
-        scrollWheelZoom={false} // o scroll está desligado para ser mais fácil de testar inicialmente
+        scrollWheelZoom={true} // o scroll está ligado, permitindo dar zoom in e zoom out através do mesmo
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -33,4 +33,4 @@ class MapView extends Component {
   }
 }
 
-export default MapView;
+export default Mapa;
