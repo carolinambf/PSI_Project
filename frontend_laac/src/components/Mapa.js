@@ -1,10 +1,22 @@
 import React, { Component } from "react";
-import { MapContainer, TileLayer } from "react-leaflet";
+import { MapContainer, TileLayer, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import data from "../assets/data";
 import Markers from "./VenueMarkers";
 
 const center = { lat: 39.23, lng: -8.68 };
+
+// esta função retorna a latitude e longitude na consola
+function MouseLocation() {
+  const mapa = useMapEvents({
+    click: () => {
+      mapa.on("click", function (e) {
+        console.log("LatLon : " + e.latlng);
+      });
+    },
+  });
+  return null;
+}
 
 class Mapa extends Component {
   constructor(props) {
@@ -34,7 +46,7 @@ class Mapa extends Component {
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         />
-
+        <MouseLocation />
         <Markers venues={data.venues} />
       </MapContainer>
     );
