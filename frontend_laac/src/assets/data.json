@@ -1,14 +1,18 @@
 {
   "venues": [
     {
-      "description": "Cais do Sodré",
       "name": "Cais do Sodré",
-      "geometry": [38.7053, -9.14278]
+      "geometry": [38.7053, -9.14278],
+      "Nome": "Gabriel Marçal",
+      "Idade": 20,
+      "Interacao": "A passear no Cais do Sodré"
     },
     {
-      "description": "Torre dos Clérigos",
       "name": "Torre dos Clérigos",
-      "geometry": [41.140666104, -8.608830898]
+      "geometry": [41.140666104, -8.608830898],
+      "Nome": "Gabriel Marçal",
+      "Idade": 20,
+      "Interacao": "Subir as escadas da Torre dos Clérigos"
     }
   ]
 }

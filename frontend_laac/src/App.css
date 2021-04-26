@@ -1,8 +1,8 @@
 .leaflet-container {
-  width: 85vw;
-  height: 85vh;
+  width: 95vw;
+  height: 95vh;
   margin-left: 50%;
-  margin-top: 25%;
-  transform: translate(-50%, -50%);
+  margin-top: 0%;
+  transform: translate(-50%, 2.5%);
   border: 1px solid black;
 }

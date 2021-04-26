@@ -23,7 +23,7 @@ class Mapa extends Component {
     super(props);
     this.state = {
       center: center,
-      zoomLvl: 4,
+      zoomLvl: 7,
     };
   }
 
@@ -32,13 +32,13 @@ class Mapa extends Component {
 
     return (
       <MapContainer
-        center={center}
-        zoom={zoomLvl}
-        minZoom={2}
+        center={center} // centro inicial do mapa
+        zoom={zoomLvl} // nivel de zoom inicial do mapa
+        minZoom={3} // máximo de zoom do mapa
         maxBounds={[
           [-90, -180],
           [90, 180],
-        ]}
+        ]} // limite do mapa
         doubleClickZoom={false} // o double click não faz mais zoom
         scrollWheelZoom={true} // o scroll está ligado, permitindo dar zoom in e zoom out através do mesmo
       >
