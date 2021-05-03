@@ -33,7 +33,7 @@ const VenueMarkers = (props) => {
   const { venues } = props;
 
   const markers = venues.map((venue, index) => (
-    <Marker key={index} position={venue.geometry} icon={VenueLocationIcon}>
+    <Marker key={index} position={venue.localizacao} icon={VenueLocationIcon}>
       <Popup>
         <div className="poup-text">
           <FormikForm />
