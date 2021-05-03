@@ -1,32 +1,22 @@
 import React from "react";
-import Mapa from "./components/Mapa";
 import "./App.css";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import SideBar from "./components/SideBar/SideBar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Home from "./components/pages/Home";
+import AboutUs from "./components/pages/AboutUs";
+import Contactos from "./components/pages/Contactos";
 
 function App() {
   return (
-    <div className="App">
-      <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">
-          LACC - Luiza Andaluz Centro de Conhecimento
-        </Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="mr-auto">
-            <Nav.Link href="#home">Mapa</Nav.Link>
-            <NavDropdown title="About Us" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Quem somos</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.2">História</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.3">Contactos</NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
-      <Mapa />
-    </div>
+    <Router>
+      <SideBar />
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/aboutus" exact component={AboutUs} />
+        <Route path="/contactos" exact component={Contactos} />
+      </Switch>
+    </Router>
   );
 }
 

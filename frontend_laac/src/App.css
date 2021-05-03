@@ -1,8 +1,23 @@
 .leaflet-container {
-  width: 92.5vw;
-  height: 92.5vh;
+  width: 90vw;
+  height: 90vh;
   margin-left: 50%;
-  margin-top: 25%;
-  transform: translate(-50%, -50%);
+  margin-top: 12.5%;
+  transform: translate(-50%, -25%);
   border: 1px solid black;
+}
+
+.contactos,
+.aboutus {
+  text-align: center;
+}
+
+#teste_contactos {
+  font-size: 100px;
+  color: grey;
+}
+
+#teste_aboutus {
+  font-size: 100px;
+  color: grey;
 }
