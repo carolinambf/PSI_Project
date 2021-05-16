@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
-import FormikForm from "./Form";
+import Form from "./Form";
 
 //array com várias cores (para utilização futura)
 const venueColor = [
@@ -32,11 +32,15 @@ const VenueLocationIcon = L.icon({
 const VenueMarkers = (props) => {
   const { venues } = props;
 
-  const markers = venues.map((venue, index) => (
-    <Marker key={index} position={venue.localizacao} icon={VenueLocationIcon}>
+  const markers = venues.map((venue) => (
+    <Marker
+      key={0}
+      position={[venue.latitude, venue.longitude]}
+      icon={VenueLocationIcon}
+    >
       <Popup>
         <div className="poup-text">
-          <FormikForm />
+          <Form />
         </div>
       </Popup>
     </Marker>
