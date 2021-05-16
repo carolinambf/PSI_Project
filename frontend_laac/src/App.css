@@ -9,12 +9,18 @@
 
 .contactos,
 .aboutus {
-  text-align: center;
+  background: url(assets/lacc.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
-#teste_contactos {
-  font-size: 100px;
-  color: grey;
+.contactos,
+.aboutus,
+.home {
+  text-align: center;
 }
 
 #teste_aboutus {
