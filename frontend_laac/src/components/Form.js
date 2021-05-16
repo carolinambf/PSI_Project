@@ -1,35 +1,87 @@
-import React from "react";
-import { Formik } from "formik";
+import React, { Component } from "react";
 
-export default function FormikForm() {
-  return (
-    <Formik
-      inicialValue={{
-        Nome: "",
-        Idade: "",
-        Interacao: "",
-        contacto: "",
-        anexo: "",
-      }}
-    >
-      {() => (
-        <form>
-          <label>Nome </label>
-          <input type="text" id="nome" name="Nome" />
-          <br />
-          <label>Idade</label>
-          <input type="number" id="idade" name="Idade" />
-          <br />
-          <label>Interação</label>
-          <input type="text" id="interacao" name="Interacao" />
-          <br />
-          <label>contacto</label>
-          <input type="text" id="contacto" name="contacto" />
-          <br />
-          <label>Anexo</label>
-          <input type="file" id="anexo" name="anexo" />
-        </form>
-      )}
-    </Formik>
-  );
+export default class Form extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      name: "",
+      age: 0,
+      story: "",
+      contact: "",
+    };
+  }
+
+  render() {
+    const handleSubmit = (evt) => {
+      evt.preventDefault();
+
+      console.log(this.state);
+    };
+
+    const handleChange = (evt) => {
+      evt.preventDefault();
+    };
+
+    return (
+      <form onSubmit={(evt) => handleSubmit(evt)}>
+        <div className="input-row">
+          <label htmlFor="name">Nome</label>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Escreva o seu nome"
+            pattern="[a-zA-Z]+"
+            onChange={(evt) => this.setState({ name: evt.target.value })}
+          ></input>
+        </div>
+        <div className="input-row">
+          <label htmlFor="age">Idade</label>
+          <input
+            type="number"
+            name="age"
+            id="age"
+            placeholder="Escreva a sua idade"
+            pattern="[0-9]+"
+            max="100"
+            onChange={(evt) => this.setState({ age: evt.target.value })}
+          ></input>
+        </div>
+        <div className="input-row">
+          <label htmlFor="story">Interação</label>
+          <input
+            type="text"
+            name="story"
+            id="story"
+            placeholder="Escreva a sua história"
+            onChange={(evt) => this.setState({ story: evt.target.value })}
+          ></input>
+        </div>
+        <div className="input-row">
+          <label htmlFor="contact">Contacto</label>
+          <input
+            type="text"
+            name="contact"
+            id="contact"
+            placeholder="+351123456789"
+            pattern="^\+(?:[0-9]●?){6,14}[0-9]$"
+            onChange={(evt) => this.setState({ contact: evt.target.value })}
+          ></input>
+        </div>
+
+        <div className="input-row">
+          <label htmlFor="anexo">Anexo</label>
+          <input
+            type="File"
+            name="anexo"
+            id="anexo"
+            onChange={(evt) => handleChange(evt)}
+          ></input>
+        </div>
+
+        <button type="submit">Submit</button>
+      </form>
+    );
+  }
 }
