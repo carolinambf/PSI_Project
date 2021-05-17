@@ -1,6 +1,6 @@
 .leaflet-container {
   width: 90vw;
-  height: 90vh;
+  height: 80vh;
   margin-left: 50%;
   margin-top: 12.5%;
   transform: translate(-50%, -25%);

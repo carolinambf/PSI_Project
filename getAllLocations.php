@@ -8,21 +8,21 @@ if($mysqli->connect_error){
    echo "Desconectado! Erro: " . $mysqli->connect_error;
 }else{
 
-    $sql ="Select latitude, longitude from interacao";
+    $sql ="Select latitude, longitude from interacoes";
     $result = $mysqli -> query($sql);
-    
+
     $location = array();
-    
+
     if(mysqli_num_rows($result)>0){
          while($row =mysqli_fetch_assoc($result)){
              array_push($location, $row);
          }
     }
-    
+
     echo json_encode($location);
 }
 
     mysqli_close($mysqli);
 
- 
+
 ?>
