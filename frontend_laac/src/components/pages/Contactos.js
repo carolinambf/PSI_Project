@@ -13,10 +13,12 @@ const Contactos = () => {
   return (
     <div className="contactos">
       <div className="espacos-fisicos">
-        <h2>Os nossos espaços físicos e digitais</h2>
+        <h2>Os nossos espaços físicos e digitais <br /> </h2>
+      </div>
+      <div className = "paragrafo"> 
         <p>
-          Antigo Convento das Capuchas, onde Luiza assumiu a sua primeira missão
-          aos 14 anos. Um edifício com séculos de história ligada ao
+          O antigo Convento das Capuchas, onde Luiza assumiu a sua primeira missão
+          aos 14 anos. <br /> Um edifício com séculos de história ligada ao
           desenvolvimento social e à educação que perdura até hoje, graças à sua
           compra, em 1925, por parte de Luiza Andaluz.
         </p>
@@ -24,7 +26,7 @@ const Contactos = () => {
           Rua de Braamcamp, s/n 2000-094 Santarém
         </a>
         <p>
-          Casa Madre Luiza Andaluz, o antigo palacete Andaluz, edifício onde
+          A Casa Madre Luiza Andaluz, o antigo palacete Andaluz, edifício onde
           Luiza Andaluz nasceu a 12 de fevereiro de 1877, cresceu e fundou a
           Congregação. Aqui sepultada, a sua cripta é um local de devoção e de
           oração para visitantes de todo o mundo.

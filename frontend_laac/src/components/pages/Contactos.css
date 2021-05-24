@@ -25,5 +25,23 @@ a.instagram {
 }
 
 .info-container {
+  font-family:'Times New Roman', Times, serif;
+  font-style: italic;
   padding: 25px 50px;
+
+}
+
+.espacos-fisicos {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  padding-left: 500px;
+  text-align: justify;
+}
+
+.paragrafo {
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 500px;
+  text-align: justify;
+
+  
 }
