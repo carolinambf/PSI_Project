@@ -5,9 +5,12 @@ import {
   faFacebook,
   faInstagram,
   faInternetExplorer,
+  faFacebookF,
+  faFacebookSquare,
+  faYoutubeSquare,
 } from "@fortawesome/free-brands-svg-icons";
 import "./Contactos.css";
-import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contactos = () => {
   return (
@@ -45,18 +48,19 @@ const Contactos = () => {
         </a>
       </div>
       <div className="info-container">
-        <h3>Links a visitar</h3>
-        <a href="https://lacc.pt/">
-          <FontAwesomeIcon icon={faInternetExplorer} size="2x" />
-          <p>Website</p>
-        </a>
+        <h3>Contactos</h3>
         <div>
+        <FontAwesomeIcon icon={faMailBulk} size="2x" />
           <p>E-mail: geral@lacc.pt</p>
         </div>
         <div>
           <FontAwesomeIcon icon={faPhone} size="2x" />
-          <p>Telemóvel/WhatsApp: +351 938 829 003</p>
+          <p>Telemóvel: +351 938 829 003</p>
         </div>
+        <a href="https://lacc.pt/">
+          < FontAwesomeIcon icon={faInternetExplorer} size="2x"  />
+          <p>Website Oficial</p>
+        </a>
       </div>
       <div className="social-container">
         <h3>Redes Sociais</h3>
