@@ -28,14 +28,18 @@ a.instagram {
   font-family:'Times New Roman', Times, serif;
   font-style: italic;
   padding: 25px 50px;
+  padding-left: 770px;
+  text-align: justify;
+ 
 
 }
 
 .espacos-fisicos {
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
-  padding-left: 500px;
+  padding-left: 770px;
   text-align: justify;
+  padding-top: 75px;
 }
 
 .paragrafo {
