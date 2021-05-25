@@ -5,9 +5,7 @@ import {
   faFacebook,
   faInstagram,
   faInternetExplorer,
-  faFacebookF,
-  faFacebookSquare,
-  faYoutubeSquare,
+ 
 } from "@fortawesome/free-brands-svg-icons";
 import "./Contactos.css";
 import { faMailBulk, faPhone } from "@fortawesome/free-solid-svg-icons";
