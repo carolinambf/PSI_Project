@@ -7,7 +7,7 @@ import SubMenu from "./SubMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavTop = styled.div`
-  background: #fff5e6 ;
+  background: #ffffff ;
   height: 7.5vh;
   width: 100vw;
   display: flex;
@@ -17,7 +17,7 @@ const NavTop = styled.div`
   color: black;
   font-size: 35px;
   font-family: Brush Script MT, Brush Script Std, cursive;
-
+  border: 2px solid black; 
 `;
 
 const Icon = styled(Link)`
@@ -28,10 +28,11 @@ const Icon = styled(Link)`
   justify-content: flex-start;
   align-items: center;
   color: black;
+ 
 `;
 
 const SideBarNav = styled.nav`
-  background: #fff5e6 ;
+  background: #ffffff ;
   height: 100vh;
   width: 175px;
   display: flex;
@@ -41,6 +42,7 @@ const SideBarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 250ms;
   z-index: 10;
+  border: 2px solid black; 
 `;
 
 const SidebarWrap = styled.div`
@@ -60,7 +62,7 @@ const SideBar = () => {
         <Icon to="#">
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
-        <div > - LACC - Luiza Andaluz Centro de Conhecimento</div>
+        <div > LACC </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
         <SidebarWrap>
