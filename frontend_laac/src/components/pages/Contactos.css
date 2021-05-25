@@ -37,17 +37,19 @@ a.instagram {
 }
 
 .espacos-fisicos {
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  padding-left: 770px;
+  font-family: 'Arial', Helvetica, sans-serif;
+  font-style: bold;
+  color: #ffb71b;
+  padding-left: 600px;
   text-align: justify;
   padding-top: 75px;
 }
 
 .paragrafo {
   font-family: 'Courier New', Courier, monospace;
-  padding-left: 500px;
-  text-align: justify;
+  padding-left: 350px;
+  text-align: center;
 
   
 }
+
