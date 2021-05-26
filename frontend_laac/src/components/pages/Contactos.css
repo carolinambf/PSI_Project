@@ -1,8 +1,9 @@
 .social-container {
-  background: #eee;
+  background: #025374;
   padding: 25px 50px;
-  font-family: "Times New Roman", Times, serif;
-  font-style: italic;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style:normal;
+  color: white;
 }
 a.social {
   margin: 0 1rem;
@@ -28,7 +29,7 @@ a.instagram {
 
 .info-container {
   font-family: "Times New Roman", Times, serif;
-  font-style: italic;
+  font-style: normal;
   padding: 25px 50px;
   text-align: center;
 }
@@ -37,13 +38,15 @@ a.instagram {
   font-family: "Arial", Helvetica, sans-serif;
   font-style: bold;
   color: #ffb71b;
-  padding-left: 600px;
-  text-align: justify;
   padding-top: 7.5vh;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
 }
 
 .paragrafo {
   font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
   padding-left: 50vw;
   transform: translateX(-25%);
   text-align: center;
