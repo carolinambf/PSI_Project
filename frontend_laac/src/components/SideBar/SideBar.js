@@ -16,7 +16,7 @@ const NavTop = styled.div`
   align-items: center;
   color: white;
   font-size: 23px;
-  font-family: Arial, Helvetica, sans-serif; 
+  font-family: Arial, Helvetica, sans-serif;
 `;
 
 const Icon = styled(Link)`
@@ -27,11 +27,10 @@ const Icon = styled(Link)`
   justify-content: flex-start;
   align-items: center;
   color: white;
- 
 `;
 
 const SideBarNav = styled.nav`
-  background: #025374 ;
+  background: #025374;
   height: 100vh;
   width: 175px;
   display: flex;
@@ -41,7 +40,6 @@ const SideBarNav = styled.nav`
   left: ${({ sidebar }) => (sidebar ? "0" : "-100%")};
   transition: 250ms;
   z-index: 10;
-  
 `;
 
 const SidebarWrap = styled.div`
@@ -61,7 +59,7 @@ const SideBar = () => {
         <Icon to="#">
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
-        <div>LACC -  Luiza Andaluz Centro de Conhecimento</div>
+        <div>LACC - Luiza Andaluz Centro de Conhecimento</div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
         <SidebarWrap>
