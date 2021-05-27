@@ -11,8 +11,8 @@ import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contactos = () => {
   return (
-    <div class="contactos">
-      <div>
+    <div className="contactos">
+      <div className="espacos-fisicos">
         <h2>Os nossos espaços físicos e digitais</h2>
         <p>
           Antigo Convento das Capuchas, onde Luiza assumiu a sua primeira missão
