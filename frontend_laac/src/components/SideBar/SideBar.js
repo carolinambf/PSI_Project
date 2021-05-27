@@ -7,7 +7,7 @@ import SubMenu from "./SubMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const NavTop = styled.div`
-  background: black;
+  background: #025374;
   height: 7.5vh;
   width: 100vw;
   display: flex;
@@ -15,7 +15,8 @@ const NavTop = styled.div`
   justify-content: flex-start;
   align-items: center;
   color: white;
-  font-size: 32px;
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
 `;
 
 const Icon = styled(Link)`
@@ -25,10 +26,11 @@ const Icon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  color: white;
 `;
 
 const SideBarNav = styled.nav`
-  background: black;
+  background: #025374;
   height: 100vh;
   width: 175px;
   display: flex;

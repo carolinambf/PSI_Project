@@ -1,6 +1,9 @@
 .social-container {
-  background: #eee;
+  background: #025374;
   padding: 25px 50px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style:normal;
+  color: white;
 }
 a.social {
   margin: 0 1rem;
@@ -13,17 +16,38 @@ a.social:hover {
 }
 
 a.youtube {
-  color: #eb3223;
+  color: white;
 }
 
 a.facebook {
-  color: #4968ad;
+  color: white;
 }
 
 a.instagram {
-  color: black;
+  color:white;
 }
 
 .info-container {
+  font-family: "Times New Roman", Times, serif;
+  font-style: normal;
   padding: 25px 50px;
+  text-align: center;
+}
+
+.espacos-fisicos {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: bold;
+  color: #ffb71b;
+  padding-top: 7.5vh;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
 }

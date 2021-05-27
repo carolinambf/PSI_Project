@@ -9,7 +9,9 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Markers from "./VenueMarkers";
+import Form from "./Form";
 import axios from "axios";
+import "./Mapa.css";
 
 // MOUSE MARKER //
 
@@ -77,24 +79,29 @@ export default class Mapa extends Component {
     const { center, zoomLvl, pontos } = this.state;
 
     return (
-      <MapContainer
-        center={center} // centro inicial do mapa
-        zoom={zoomLvl} // nivel de zoom inicial do mapa
-        minZoom={3} // máximo de zoom do mapa
-        maxBounds={[
-          [-90, -180],
-          [90, 180],
-        ]} // limite do mapa
-        doubleClickZoom={false} // o double click não faz mais zoom
-        scrollWheelZoom={true} // o scroll está ligado, permitindo dar zoom in e zoom out através do mesmo
-      >
-        <TileLayer
-          url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-        />
-        <MouseLatLng />
-        <Markers venues={pontos} />
-      </MapContainer>
+      <div className="zonaMapa">
+        <div className="formulario">
+          <Form />
+        </div>
+        <MapContainer
+          center={center} // centro inicial do mapa
+          zoom={zoomLvl} // nivel de zoom inicial do mapa
+          minZoom={3} // máximo de zoom do mapa
+          maxBounds={[
+            [-90, -180],
+            [90, 180],
+          ]} // limite do mapa
+          doubleClickZoom={false} // o double click não faz mais zoom
+          scrollWheelZoom={true} // o scroll está ligado, permitindo dar zoom in e zoom out através do mesmo
+        >
+          <TileLayer
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+            attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+          />
+          <MouseLatLng />
+          <Markers venues={pontos} />
+        </MapContainer>
+      </div>
     );
   }
 }
