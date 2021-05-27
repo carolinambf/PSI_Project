@@ -3,12 +3,12 @@ import * as FcIcons from "react-icons/fc";
 
 export const SideBarData = [
   {
-    title: "Home",
+    title: "Página Inicial",
     path: "/",
     icon: <FcIcons.FcHome />,
   },
   {
-    title: "About Us",
+    title: "Sobre Nós",
     path: "/aboutus",
     icon: <FcIcons.FcInfo />,
   },
