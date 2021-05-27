@@ -4,5 +4,6 @@ html {
   margin: 0;
   background-color:#ffffff;
   overflow-x: hidden;
+  overflow-y: hidden;
   position: relative;
 }

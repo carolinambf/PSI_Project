@@ -1,0 +1,25 @@
+.zonaMapa {
+  width: 90.15vw;
+  height: 80.25vh;
+  margin-left: 50%;
+  margin-top: 12.5%;
+  transform: translate(-50%, -25%);
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.formulario {
+  width: 20vw;
+  height: 80vh;
+  text-align: left;
+  align-items: center;
+  color: black;
+  display: none;
+  float: left;
+}
+
+.leaflet-container {
+  width: 90vw;
+  height: 80vh;
+}
