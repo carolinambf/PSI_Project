@@ -31,6 +31,7 @@ O utilizador da página pode descrever a sua interação e até adicionar fotogr
 À medida que os utilizadores vão preenchendo a plataforma com as suas experiências, estas são assinaladas no mundo, sendo facilmente percetível o 
 impacto de Luiza e da congregação
 </p>
+<p>EM CONSTRUÇÃO </p>
 </div>
 
 <div className="social-container">
