@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import L from "leaflet";
 import { Marker, Popup } from "react-leaflet";
-import Form from "./Form";
 
 //array com várias cores (para utilização futura)
 const venueColor = [
@@ -40,7 +39,9 @@ const VenueMarkers = (props) => {
     >
       <Popup>
         <div className="poup-text">
-          <Form />
+          Latitude: {venue.latitude}
+          <br />
+          Longitude: {venue.longitude}
         </div>
       </Popup>
     </Marker>
