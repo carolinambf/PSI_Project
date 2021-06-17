@@ -59,7 +59,9 @@ const SideBar = () => {
         <Icon to="#">
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
-        <div>LACC - Luiza Andaluz Centro de Conhecimento</div>
+        <div>
+          <img src="../../assets/logo.jpg" />
+        </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
         <SidebarWrap>
