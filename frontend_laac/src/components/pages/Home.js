@@ -3,6 +3,7 @@ import Mapa from "../Mapa";
 
 const Home = () => {
   return (
+   
     <div className="home">
       <Mapa />
     </div>
