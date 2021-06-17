@@ -59,12 +59,9 @@ const SideBar = () => {
         <Icon to="#">
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
-        <div class="topnav">
-<a href=""> <img src = "assets/logo.jpg"></img> </a>   
-<a href=""> Contar a minha História </a>
-<a href=""> Registo </a>
-<a href=""> Iniciar Sessão </a>
-</div>
+        <div>
+          <img src="../../assets/logo.jpg" />
+        </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
         <SidebarWrap>
