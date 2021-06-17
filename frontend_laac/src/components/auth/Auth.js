@@ -1,5 +1,5 @@
 import React from "react";
-import AuthContext from "./config/authcontext";
+import AuthContext from "../config/authcontext";
 
 export default class AuthComponent extends React.Component {
   constructor(props) {
@@ -20,6 +20,10 @@ export default class AuthComponent extends React.Component {
     this.setState({ user: undefined });
   };
   render() {
-    return <AuthContext.Provider value={this.state}>{this.props.children}</AuthContext.Provider>;
+    return (
+      <AuthContext.Provider value={this.state}>
+        {this.props.children}
+      </AuthContext.Provider>
+    );
   }
 }
