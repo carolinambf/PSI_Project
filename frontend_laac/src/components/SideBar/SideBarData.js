@@ -30,5 +30,6 @@ export const SideBarData = [
   {
     title: "Registar",
     path: "/register",
+    icon: <FcIcons.FcUpRight/>,
   },
 ];
