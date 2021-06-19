@@ -1,11 +1,12 @@
 .container {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
   width: 27.5vw;
   height: 35vh;
   color: black;
   display: flex;
   align-items: center;
-  border: 1px solid black;
-  background-color: antiquewhite;
+ 
 }
 
 .formulario_login {
@@ -14,5 +15,5 @@
 }
 
 .botao {
-  float: right
+  float: right;
 }

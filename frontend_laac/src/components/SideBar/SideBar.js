@@ -60,7 +60,7 @@ const SideBar = () => {
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
         <div>
-          LACC - Luiza Andaluz Centro de Conhecimento
+          &nbsp;&nbsp;LACC - Luiza Andaluz Centro de Conhecimento
         </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>

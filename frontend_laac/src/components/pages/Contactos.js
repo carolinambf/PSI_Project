@@ -8,7 +8,7 @@ import {
  
 } from "@fortawesome/free-brands-svg-icons";
 import "./Contactos.css";
-import { faMailBulk, faMapMarked, faMapMarkedAlt, faMapMarker, faMapMarkerAlt, faMapPin, faMarker, faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faMailBulk, faMapMarkerAlt, faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Contactos = () => {
   return (
