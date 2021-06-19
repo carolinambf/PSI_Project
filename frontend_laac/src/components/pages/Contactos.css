@@ -28,13 +28,13 @@ a.instagram {
 }
 
 .info-container {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
   font-style: normal;
-  padding: 25px 50px;
+  padding: 7px 50px;
   text-align: center;
 }
 
-.espacos-fisicos {
+.espacos-fisicos, .contacto {
   font-family: "Arial", Helvetica, sans-serif;
   font-style: bold;
   color: #ffb71b;
@@ -43,6 +43,7 @@ a.instagram {
   transform: translateX(-25%);
   text-align: center;
 }
+
 
 .paragrafo {
   font-family: "Courier New", Courier, monospace;
