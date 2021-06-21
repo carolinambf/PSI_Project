@@ -29,7 +29,7 @@ const AboutUs = () => {
 <p> Esta é uma plataforma online onde o utilizador pode assinalar o local onde teve uma interação com Luiza Andaluz e/ou com a congregação. ​
 O utilizador da página pode descrever a sua interação e até adicionar fotografias (da interação, do local ou de um evento).​
 À medida que os utilizadores vão preenchendo a plataforma com as suas experiências, estas são assinaladas no mundo, sendo facilmente percetível o 
-impacto de Luiza e da congregação
+impacto de Luiza e da congregação.
 </p>
 </div>
 
@@ -37,7 +37,8 @@ impacto de Luiza e da congregação
 <h2> Um Trabalho de ... </h2>
 </div>
 <div className="paragrafo">
-<p> 
+<p> A realização deste trabalho, teve o contributo dos alunos do 3ºano de licenciatura em Engenharia Informática, da cadeira de Projeto de sistemas de Informação,
+orientada pelo docente Paulo Santos. Os alunos: Carolina Ferreira, João Valente, Jéssica Henriques, Gabriel Marçal, Tiago Martins, Ana Ribeiro, Rui Rocha e João Silva.
 </p>
 
 </div>
