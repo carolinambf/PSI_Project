@@ -26,11 +26,12 @@ const Icon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: white;
+  color: #ffb71b;
 `;
 
 const SideBarNav = styled.nav`
-  background: #025374;
+  background: #ffffff;
+  border:2px solid #025374;
   height: 100vh;
   width: 175px;
   display: flex;
