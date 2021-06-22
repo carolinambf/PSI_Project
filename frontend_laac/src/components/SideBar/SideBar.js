@@ -26,11 +26,12 @@ const Icon = styled(Link)`
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  color: white;
+  color: #ffb71b;
 `;
 
 const SideBarNav = styled.nav`
-  background: #025374;
+  background: #ffffff;
+  border:2px solid #025374;
   height: 100vh;
   width: 175px;
   display: flex;
@@ -60,7 +61,7 @@ const SideBar = () => {
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
         <div>
-          <img src="../../assets/logo.jpg" />
+          &nbsp;&nbsp;LACC - Luiza Andaluz Centro de Conhecimento
         </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>

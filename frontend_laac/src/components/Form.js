@@ -26,18 +26,19 @@ export default class Form extends Component {
     return (
       <form onSubmit={(evt) => handleSubmit(evt)}>
         <div className="input-row">
-          <label htmlFor="name">Nome</label>
+          <label htmlFor="name">Nome :</label>
           <input
             type="text"
             name="name"
             id="name"
-            placeholder="Escreva o seu nome"
+            placeholder=" Escreva o seu nome"
             pattern="[a-zA-Z]+"
             onChange={(evt) => this.setState({ name: evt.target.value })}
           ></input>
         </div>
+        <p></p>
         <div className="input-row">
-          <label htmlFor="age">Idade</label>
+          <label htmlFor="age">Idade :</label>
           <input
             type="number"
             name="age"
@@ -48,8 +49,9 @@ export default class Form extends Component {
             onChange={(evt) => this.setState({ age: evt.target.value })}
           ></input>
         </div>
+        <p></p>
         <div className="input-row">
-          <label htmlFor="story">Interação</label>
+          <label htmlFor="story">Interação :</label>
           <input
             type="text"
             name="story"
@@ -58,8 +60,9 @@ export default class Form extends Component {
             onChange={(evt) => this.setState({ story: evt.target.value })}
           ></input>
         </div>
+        <p></p>
         <div className="input-row">
-          <label htmlFor="contact">Contacto</label>
+          <label htmlFor="contact">Contacto :</label>
           <input
             type="text"
             name="contact"
@@ -69,9 +72,8 @@ export default class Form extends Component {
             onChange={(evt) => this.setState({ contact: evt.target.value })}
           ></input>
         </div>
-
         <div className="input-row">
-          <label htmlFor="anexo">Anexo</label>
+          <label htmlFor="anexo">Anexo </label>
           <input
             type="File"
             name="anexo"
@@ -79,8 +81,8 @@ export default class Form extends Component {
             onChange={(evt) => handleChange(evt)}
           ></input>
         </div>
-
-        <button type="submit">Submit</button>
+        <p></p>
+        <button type="submit">Submeter </button>
       </form>
     );
   }
