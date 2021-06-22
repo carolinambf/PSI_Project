@@ -1,6 +1,7 @@
 .contactos,
 .aboutus,
 .login,
+.creditos,
 .register {
   background: url(assets/lacc.jpg) no-repeat center center fixed;
   background-position: center;
@@ -12,6 +13,7 @@
 
 .contactos,
 .aboutus,
+.creditos,
 .home {
   text-align: center;
 }

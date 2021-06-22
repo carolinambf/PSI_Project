@@ -9,6 +9,7 @@ import Contactos from "./components/pages/Contactos";
 import AuthComponent from "./components/auth/Auth";
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
+import Creditos from "./components/pages/Creditos";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contactos" exact component={Contactos} />
           <Route path="/login" exact component={Login} />
           <Route path="/register" exact component={Register} />
+          <Route path="/creditos" exact component={Creditos} />
         </Switch>
       </Router>
     </AuthComponent>
