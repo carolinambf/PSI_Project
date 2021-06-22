@@ -19,6 +19,19 @@ const NavTop = styled.div`
   font-family: Arial, Helvetica, sans-serif;
 `;
 
+const LACC = styled.div`
+  color: #ffb71b;
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: Courier;
+  height: 80px;
+  display: flex;
+  justify-content: flex-end;
+  float: left;
+  align-items: center;
+`;
+
 const Icon = styled(Link)`
   margin-left: 2rem;
   font-size: 2rem;
@@ -31,9 +44,9 @@ const Icon = styled(Link)`
 
 const SideBarNav = styled.nav`
   background: #ffffff;
-  border:2px solid #025374;
+  border: 2px solid #025374;
   height: 100vh;
-  width: 175px;
+  width: 215px;
   display: flex;
   justify-content: flex-start;
   position: fixed;
@@ -60,9 +73,7 @@ const SideBar = () => {
         <Icon to="#">
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
-        <div>
-          &nbsp;&nbsp;LACC - Luiza Andaluz Centro de Conhecimento
-        </div>
+        <LACC>LACC - Luiza Andaluz Centro de Conhecimento</LACC>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
         <SidebarWrap>

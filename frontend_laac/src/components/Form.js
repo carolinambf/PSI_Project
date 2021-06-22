@@ -27,6 +27,7 @@ export default class Form extends Component {
       <form onSubmit={(evt) => handleSubmit(evt)}>
         <div className="input-row">
           <label htmlFor="name">Nome :</label>
+          <br />
           <input
             type="text"
             name="name"
@@ -39,6 +40,7 @@ export default class Form extends Component {
         <p></p>
         <div className="input-row">
           <label htmlFor="age">Idade :</label>
+          <br />
           <input
             type="number"
             name="age"
@@ -52,6 +54,7 @@ export default class Form extends Component {
         <p></p>
         <div className="input-row">
           <label htmlFor="story">Interação :</label>
+          <br />
           <input
             type="text"
             name="story"
@@ -63,6 +66,7 @@ export default class Form extends Component {
         <p></p>
         <div className="input-row">
           <label htmlFor="contact">Contacto :</label>
+          <br />
           <input
             type="text"
             name="contact"
@@ -72,8 +76,34 @@ export default class Form extends Component {
             onChange={(evt) => this.setState({ contact: evt.target.value })}
           ></input>
         </div>
+        <p></p>
+        <div className="input-row">
+          <label htmlFor="latitude">Latitude: </label>
+          <br />
+          <input
+            type="text"
+            name="latitude"
+            id="latitude"
+            placeholder="39.23"
+            onChange={(evt) => this.setState({ latitude: evt.target.value })}
+          ></input>
+        </div>
+        <p></p>
+        <div className="input-row">
+          <label htmlFor="longitude">Longitude: </label>
+          <br />
+          <input
+            type="text"
+            name="longitude"
+            id="longitude"
+            placeholder="-8.68"
+            onChange={(evt) => this.setState({ longitude: evt.target.value })}
+          ></input>
+        </div>
+        <p></p>
         <div className="input-row">
           <label htmlFor="anexo">Anexo </label>
+          <br />
           <input
             type="File"
             name="anexo"
