@@ -1,5 +1,7 @@
 .contactos,
-.aboutus {
+.aboutus,
+.login,
+.register {
   background: url(assets/lacc.jpg) no-repeat center center fixed;
   background-position: center;
   background-repeat: no-repeat;

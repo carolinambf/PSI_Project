@@ -17,11 +17,7 @@ export const SideBarData = [
     path: "/contactos",
     icon: <FcIcons.FcContacts />,
   },
-  {
-    title: "Conte-nos a sua história",
-    path: "/storytell",
-    icon: <FcIcons.FcSms />,
-  },
+
   {
     title: "Login",
     path: "/login",
@@ -30,5 +26,6 @@ export const SideBarData = [
   {
     title: "Registar",
     path: "/register",
+    icon: <FcIcons.FcUpRight/>,
   },
 ];

@@ -1,0 +1,19 @@
+.container {
+  width: 27.5vw;
+  height: 35vh;
+  color: black;
+  display: flex;
+  align-items: center;
+  /*border: 1px solid #025374;*/
+  /*background-color: antiquewhite;*/
+  text-align: center;
+  padding-top: 40vh;
+
+}
+
+.formulario_register {
+  width: inherit;
+  height: inherit;
+  
+}
+
