@@ -22,6 +22,11 @@ export const SideBarData = [
     path: "/contactos",
     icon: <FcIcons.FcContacts />,
   },
+  {
+    title: "Créditos",
+    path: "/creditos",
+    icon: <FcIcons.FcAssistant />,
+  },
 
   {
     title: "Login",
