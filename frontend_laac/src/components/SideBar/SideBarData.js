@@ -8,6 +8,11 @@ export const SideBarData = [
     icon: <FcIcons.FcHome />,
   },
   {
+    title: "Insira a sua História",
+    path: "/inserthistory",
+    icon: <FcIcons.FcDocument />,
+  },
+  {
     title: "Sobre Nós",
     path: "/aboutus",
     icon: <FcIcons.FcInfo />,
@@ -16,6 +21,11 @@ export const SideBarData = [
     title: "Contactos",
     path: "/contactos",
     icon: <FcIcons.FcContacts />,
+  },
+  {
+    title: "Créditos",
+    path: "/creditos",
+    icon: <FcIcons.FcAssistant />,
   },
 
   {
@@ -26,6 +36,6 @@ export const SideBarData = [
   {
     title: "Registar",
     path: "/register",
-    icon: <FcIcons.FcUpRight/>,
+    icon: <FcIcons.FcUpRight />,
   },
 ];

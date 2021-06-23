@@ -1,10 +1,13 @@
+/* Página Contactos CSS  */
+
 .social-container {
   background: #025374;
   padding: 25px 50px;
   font-family: "Arial", Helvetica, sans-serif;
-  font-style:normal;
+  font-style: normal;
   color: white;
 }
+
 a.social {
   margin: 0 1rem;
   transition: transform 250ms;
@@ -24,7 +27,7 @@ a.facebook {
 }
 
 a.instagram {
-  color:white;
+  color: white;
 }
 
 .info-container {
@@ -34,11 +37,12 @@ a.instagram {
   text-align: center;
 }
 
-.espacos-fisicos, .contacto {
+.espacos-fisicos,
+.contacto {
   font-family: "Arial", Helvetica, sans-serif;
   font-style: bold;
   color: #ffb71b;
-  padding-top: 7.5vh;
+  padding-top: 2.5vh;
   padding-left: 50vw;
   transform: translateX(-25%);
   text-align: center;
@@ -52,3 +56,5 @@ a.instagram {
   transform: translateX(-25%);
   text-align: center;
 }
+
+/* Página Créditos CSS  */
