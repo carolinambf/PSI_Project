@@ -6,10 +6,10 @@
   color: black;
   display: flex;
   align-items: center;
- 
+
 }
 
-.formulario_login {
+.formulario_register {
   width: inherit;
   height: inherit;
 }
