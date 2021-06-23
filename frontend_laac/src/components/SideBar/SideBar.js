@@ -5,7 +5,7 @@ import * as AiIcons from "react-icons/ai";
 import { SideBarData } from "./SideBarData";
 import SubMenu from "./SubMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
-
+import  logo   from "../../assets/logo.jpg";
 const NavTop = styled.div`
   background: #025374;
   height: 7.5vh;
@@ -61,7 +61,7 @@ const SideBar = () => {
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
         <div>
-          &nbsp;&nbsp;LACC - Luiza Andaluz Centro de Conhecimento
+          &nbsp;&nbsp;<img src={logo} />
         </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
