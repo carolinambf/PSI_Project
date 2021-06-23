@@ -68,7 +68,7 @@ export default class MapaInsert extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost/getAllLocations.php")    
+      .get("http://localhost/getAllLocations.php")
       .then((res) =>
         this.setState({ pontos: res.data }, () => console.log(this.state))
       )

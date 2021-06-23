@@ -39,17 +39,16 @@ const VenueMarkers = (props) => {
     >
       <Popup>
         <div className="poup-text">
+          Nome: {venue.nome}
+          <br />
+          Idade: {venue.idade}
+          <br />
+          Historia: {venue.descricao}
+          <br />
           Latitude: {venue.latitude}
           <br />
           Longitude: {venue.longitude}
           <br />
-          nome: {venue.nome}
-          <br />
-          idade: {venue.idade}
-          <br />
-          historia: {venue.descricao}
-          <br />
-          
         </div>
       </Popup>
     </Marker>

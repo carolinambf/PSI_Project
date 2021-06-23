@@ -53,18 +53,6 @@ CREATE TABLE `interacao` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
--- Extraindo dados da tabela `interacao`
---
-
-INSERT INTO `interacao` (`idInteracao`, `latitude`, `nome`, `idade`, `descricao`, `contactoUSer`, `moderador`, `longitude`, `State`) VALUES
-(6, 38.875374, 'teste', 20, 'teste teste teste teste', 'teste', 1, -9.284932, 1),
-(7, 39.47, 'Rui', 16, 'teste', NULL, NULL, -8.21, 1),
-(8, 39.47, 'Rui', 16, 'teste', 'null', NULL, -8.21, 0),
-(9, 39.47, 'State', 16, 'teste', 'null', NULL, -8.21, 0);
-
--- --------------------------------------------------------
-
---
 -- Estrutura da tabela `moderador`
 --
 
