@@ -2,6 +2,9 @@ import React from "react";
 import "./Contactos.css";
 import  val   from "../../assets/val.jpg";
 import  carol   from "../../assets/carol.jpg";
+import  ana   from "../../assets/ana.jpg";
+import  gabi   from "../../assets/gabi.jpg";
+
 const Creditos = () => {
 
     return (
@@ -9,16 +12,24 @@ const Creditos = () => {
         <div className="contactos">
         <div className="espacos-fisicos">
           <h2> Créditos   PÁGINA EM CONSTRUÇÃO </h2>
+          <p></p>
         </div>
       
-        <div className="row">
-            <div className="col-lg-3 col-md-6">
-                <div className="member">
-                   <p><img src={val} /> <img src={carol} /> </p>
-                    <h4> João Miguel Valente taveres Oliveira  </h4>
-                    <span> 21073 </span>
+        <div >
+            
+                <div >
+                   <p>  &nbsp;&nbsp; &nbsp;&nbsp;   &nbsp;&nbsp; <img src={val} />  
+                        &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; <img src={carol} /> 
+                        &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  <img src={gabi} /> 
+                        &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  <img src={ana} /> 
+                    </p>
+                 
+                
+                  
+                 
+                  
                 </div>
-            </div>
+           
 
 
         </div>
