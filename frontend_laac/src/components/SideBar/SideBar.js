@@ -5,7 +5,8 @@ import * as AiIcons from "react-icons/ai";
 import { SideBarData } from "./SideBarData";
 import SubMenu from "./SubMenu";
 import "bootstrap/dist/css/bootstrap.min.css";
-import  logo   from "../../assets/logo.png";
+import logo from "../../assets/logo.png";
+
 const NavTop = styled.div`
   background: #025374;
   height: 7.5vh;
@@ -17,19 +18,6 @@ const NavTop = styled.div`
   color: white;
   font-size: 23px;
   font-family: Arial, Helvetica, sans-serif;
-`;
-
-const LACC = styled.div`
-  color: #ffb71b;
-  margin-left: 2rem;
-  font-size: 1.5rem;
-  font-weight: bold;
-  font-family: Courier;
-  height: 80px;
-  display: flex;
-  justify-content: flex-end;
-  float: left;
-  align-items: center;
 `;
 
 const Icon = styled(Link)`
@@ -74,7 +62,8 @@ const SideBar = () => {
           <AiIcons.AiOutlineMenu onClick={showSideBar} />
         </Icon>
         <div>
-          &nbsp;&nbsp;<img src={logo} />
+          &nbsp;&nbsp;
+          <img src={logo} alt="LACC - Luiza Andaluz Centro de Conhecimento" />
         </div>
       </NavTop>
       <SideBarNav sidebar={sidebar}>
