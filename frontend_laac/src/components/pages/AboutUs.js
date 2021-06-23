@@ -38,7 +38,7 @@ impacto de Luiza e da congregação.
 </div>
 <div className="paragrafo">
 <p> A realização deste trabalho, teve o contributo dos alunos do 3ºano de licenciatura em Engenharia Informática, da cadeira de Projeto de sistemas de Informação,
-orientada pelo docente Paulo Santos. Os alunos: Carolina Ferreira, João Valente, Jéssica Henriques, Gabriel Marçal, Tiago Martins, Ana Ribeiro, Rui Rocha e João Silva.
+orientada pelo docente Paulo Santos. 
 </p>
 
 </div>
