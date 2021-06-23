@@ -11,12 +11,12 @@ const SideBarLink = styled(Link)`
   list-style: none;
   height: 60px;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 16px;
 
   &:hover {
-    background: white;
-    border-left: 4px solid #632ce4;
-    cursor: pointer;
+    background: #025374;
+    border-left: 4px solid #ffb71b;
+    color: #ffffff;
   }
 `;
 
