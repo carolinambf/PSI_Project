@@ -8,7 +8,7 @@ if($mysqli->connect_error){
    echo "Desconectado! Erro: " . $mysqli->connect_error;
 }else{
 
-    $sql ="Select latitude, longitude from interacao";
+    $sql ="Select latitude, longitude, nome, idade, descricao, contactoUSer from interacao where State=1";
     $result = $mysqli -> query($sql);
     
     $location = array();

@@ -1,23 +1,19 @@
-.leaflet-container {
-  width: 90vw;
-  height: 90vh;
-  margin-left: 50%;
-  margin-top: 12.5%;
-  transform: translate(-50%, -25%);
-  border: 1px solid black;
+.contactos,
+.aboutus,
+.login,
+.creditos,
+.register {
+  background: url(assets/lacc.jpg) no-repeat center center fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 .contactos,
-.aboutus {
+.aboutus,
+.creditos,
+.home {
   text-align: center;
-}
-
-#teste_contactos {
-  font-size: 100px;
-  color: grey;
-}
-
-#teste_aboutus {
-  font-size: 100px;
-  color: grey;
 }

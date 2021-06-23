@@ -1,0 +1,19 @@
+.container {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  width: 27.5vw;
+  height: 35vh;
+  color: black;
+  display: flex;
+  align-items: center;
+
+}
+
+.formulario_register {
+  width: inherit;
+  height: inherit;
+}
+
+.botao {
+  float: right;
+}

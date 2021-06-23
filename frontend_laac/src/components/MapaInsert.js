@@ -9,6 +9,7 @@ import {
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import Markers from "./VenueMarkers";
+import Form from "./Form";
 import axios from "axios";
 import "./Mapa.css";
 
@@ -55,7 +56,7 @@ function MouseLatLng() {
   return null;
 }
 
-export default class Mapa extends Component {
+export default class MapaInsert extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -67,7 +68,7 @@ export default class Mapa extends Component {
 
   componentDidMount() {
     axios
-      .get("http://localhost/getAllLocations.php")
+      .get("http://localhost/getAllLocations.php")    
       .then((res) =>
         this.setState({ pontos: res.data }, () => console.log(this.state))
       )
@@ -79,6 +80,9 @@ export default class Mapa extends Component {
 
     return (
       <div className="zonaMapa">
+        <div className="formulario">
+          <Form />
+        </div>
         <MapContainer
           center={center} // centro inicial do mapa
           zoom={zoomLvl} // nivel de zoom inicial do mapa

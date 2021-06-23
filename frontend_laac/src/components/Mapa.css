@@ -1,0 +1,40 @@
+body,
+html {
+  overflow-x: hidden;
+}
+
+.zonaMapa {
+  width: 90vw;
+  height: 80vh;
+  margin-left: 50%;
+  margin-top: 12.5%;
+  transform: translate(-50%, -25%);
+  position: relative;
+}
+
+.formulario {
+  width: 22.5vw;
+  height: 80vh;
+  text-align: left;
+  align-items: center;
+  padding-left: 10px;
+  color: black;
+  position: relative;
+  display: flex;
+  float: left;
+  border: 1px solid #025374;
+  background-color: white;
+}
+
+label {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.leaflet-container {
+  width: 90vw;
+  height: 80vh;
+  position: absolute;
+  display: inherit;
+  z-index: -1;
+}

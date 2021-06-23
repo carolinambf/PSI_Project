@@ -6,17 +6,31 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./components/pages/Home";
 import AboutUs from "./components/pages/AboutUs";
 import Contactos from "./components/pages/Contactos";
+import AuthComponent from "./components/auth/Auth";
+import Login from "./components/pages/Login";
+import Register from "./components/pages/Register";
+
+import Creditos from "./components/pages/Creditos";
+
+import InsertHistory from "./components/pages/InsertHistory";
+
 
 function App() {
   return (
-    <Router>
-      <SideBar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/aboutus" exact component={AboutUs} />
-        <Route path="/contactos" exact component={Contactos} />
-      </Switch>
-    </Router>
+    <AuthComponent>
+      <Router>
+        <SideBar />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/inserthistory" exact component={InsertHistory} />
+          <Route path="/aboutus" exact component={AboutUs} />
+          <Route path="/contactos" exact component={Contactos} />
+          <Route path="/login" exact component={Login} />
+          <Route path="/register" exact component={Register} />
+          <Route path="/creditos" exact component={Creditos} />
+        </Switch>
+      </Router>
+    </AuthComponent>
   );
 }
 

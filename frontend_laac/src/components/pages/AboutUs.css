@@ -1,0 +1,31 @@
+.sobrenos {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: bold;
+  color: #ffb71b;
+  padding-top: 7.5vh;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
+}
+
+.paragrafo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
+}
+
+.trabalho {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: bold;
+  color: #ffb71b;
+}
+
+.social-container {
+  background: #025374;
+  padding: 25px 50px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style:normal;
+  color: white;
+}

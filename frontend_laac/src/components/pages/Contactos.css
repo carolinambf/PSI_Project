@@ -1,0 +1,60 @@
+/* Página Contactos CSS  */
+
+.social-container {
+  background: #025374;
+  padding: 25px 50px;
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: white;
+}
+
+a.facebook {
+  color: white;
+}
+
+a.instagram {
+  color: white;
+}
+
+.info-container {
+  font-family: "Courier New", Courier, monospace;
+  font-style: normal;
+  padding: 7px 50px;
+  text-align: center;
+}
+
+.espacos-fisicos,
+.contacto {
+  font-family: "Arial", Helvetica, sans-serif;
+  font-style: bold;
+  color: #ffb71b;
+  padding-top: 2.5vh;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
+}
+
+
+.paragrafo {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding-left: 50vw;
+  transform: translateX(-25%);
+  text-align: center;
+}
+
+/* Página Créditos CSS  */
