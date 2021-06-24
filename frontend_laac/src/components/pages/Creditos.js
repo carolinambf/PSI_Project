@@ -7,7 +7,7 @@ import gabi from "../../assets/gabi.jpg";
 import jess from "../../assets/jess.jpg";
 import pedro from "../../assets/pedro.jpg";
 import joao from "../../assets/joao.jpg";
-//import rui from "../../assets/rui.jpg";
+import rui from "../../assets/rui.jpg";
 
 const Creditos = () => {
 
@@ -32,6 +32,7 @@ const Creditos = () => {
             <div >
             <p>          &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;  <img src={jess} />
                          &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp; <img src={pedro} />
+                         &nbsp;&nbsp; &nbsp;&nbsp;   &nbsp;&nbsp; <img src={rui} />
                          &nbsp;&nbsp; &nbsp;&nbsp;   &nbsp;&nbsp; <img src={joao} />
                     </p>
                 </div>
