@@ -23,7 +23,7 @@ const AboutUs = () => {
 </p>
 </div>
 <div className ="trabalho">
-<h2> Sobre este trabalho... </h2>
+<h2> Sobre esta Plataforma... </h2>
 </div>
 <div className="paragrafo">
 <p> Esta é uma plataforma online onde o utilizador pode assinalar o local onde teve uma interação com Luiza Andaluz e/ou com a congregação. ​
