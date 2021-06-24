@@ -25,36 +25,6 @@ const MouseIcon = L.icon({
   shadowSize: [41, 41],
 });
 
-function MouseLatLng() {
-  const [position, setPosition] = useState(null);
-  useMapEvents({
-    click(e) {
-      setPosition(e.latlng);
-      if (!(position == null)) {
-        console.log(position);
-      }
-    },
-  });
-
-  if (!(position == null)) {
-    return (
-      <>
-        <Marker position={position} icon={MouseIcon}>
-          <Popup>
-            <div className="poup-text">
-              <h6>Coordenadas</h6>
-              Lat: {position.lat}
-              <br />
-              Lng: {position.lng}
-            </div>
-          </Popup>
-        </Marker>
-      </>
-    );
-  }
-  return null;
-}
-
 export default class Mapa extends Component {
   constructor(props) {
     super(props);
@@ -94,7 +64,6 @@ export default class Mapa extends Component {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
           />
-          <MouseLatLng />
           <Markers venues={pontos} />
         </MapContainer>
       </div>

@@ -24,7 +24,7 @@ export default class Form extends Component {
     };
 
     return (
-      <form onSubmit={(evt) => handleSubmit(evt)}>
+      <form action="http://localhost/insert.php" method="post">
         <div className="input-row">
           <label htmlFor="name">Nome :</label>
           <br />
